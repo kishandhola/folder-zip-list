@@ -45,7 +45,7 @@ This Python script compresses all subdirectories within a specified directory in
 
 Assume the following directory structure in `root_dir`:
 
-
+```
 root_dir/
 ├── subdir1/
 │ ├── file1.txt
@@ -55,11 +55,12 @@ root_dir/
 │ └── file4.txt
 └── file5.txt
 
+```
 After running the script and entering the path to `root_dir`, the script will create the following zip files in `root_dir`:
-
+```
 root_dir/
 ├── subdir1.zip
 ├── subdir2.zip
 └── file5.txt
-
+```
 Each zip file will contain the respective subdirectory's contents, maintaining the directory structure.
